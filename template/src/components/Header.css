@@ -1,0 +1,24 @@
+.site-header {
+  width: 100%;
+}
+
+.brand {
+  color: #ffffff;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+}
