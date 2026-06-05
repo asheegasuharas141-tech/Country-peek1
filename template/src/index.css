@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: #f2f4f7;
+  color: #111827;
+  --surface: #ffffff;
+  --border: #d1d5db;
+  --text: #111827;
+  --text-secondary: #4b5563;
+  --muted: #6b7280;
+  --danger: #b91c1c;
+  --shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--surface);
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
